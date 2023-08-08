@@ -1,0 +1,937 @@
+{
+  "register": [
+    {
+      "name": "mahmoud",
+      "phone": "01015043042",
+      "email": "melgenday@yahoo.com",
+      "password": "1234555",
+      "id": 2
+    },
+    {
+      "name": "Alaa Talaat",
+      "phone": "20112084534",
+      "email": "a@yahoo.com",
+      "password": "123488",
+      "id": 3
+    },
+    {
+      "name": "Alaa Talaat",
+      "phone": "+2011208453",
+      "email": "a@yahoo.com",
+      "password": "11111",
+      "id": 4
+    },
+    {
+      "name": "Alaa Talaat",
+      "phone": "+2011208453",
+      "email": "hamada@yahoo.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "alaat",
+      "phone": "01120842719",
+      "email": "at40@gmail.com",
+      "password": "123411",
+      "id": 6
+    },
+    {
+      "name": "ali ahmed",
+      "phone": "01120878987",
+      "email": "ali@yahoo.com",
+      "password": "123478",
+      "id": 7
+    },
+    {
+      "name": "Alaa Talaat",
+      "phone": "01120845345",
+      "email": "alaatalat40@gmail.com",
+      "password": "111111",
+      "id": 8
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/1.jpeg?raw=true",
+      "name_ar": "طماطم درجة أولى فاخر",
+      "name_en": "Tomato 1st Grade",
+      "price": 15,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe",
+      "status": "fruitAndVegetables"
+    },
+    {
+      "id": 2,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/2.jpg?raw=true",
+      "name_ar": "خيار درجة أولى",
+      "name_en": "Cucumber 1st Grade",
+      "price": 11,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 3,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/3.jpg?raw=true",
+      "name_ar": "بطاطس",
+      "name_en": "Lebanese Black Grape",
+      "price": 12,
+      "size_ar": "1 كيلو ",
+      "size_en": "1 KG",
+      "kind": "freshVe",
+      "status": "fruitAndVegetables"
+    },
+    {
+      "id": 4,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/4.jpg?raw=true",
+      "name_ar": "بصل أحمر",
+      "name_en": "Red Onions",
+      "price": 16,
+      "size_ar": "1 كيلو",
+      "size_en": "1 KG",
+      "kind": "freshVe",
+      "status": "fruitAndVegetables"
+    },
+    {
+      "id": 5,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/5.jpg?raw=true",
+      "name_ar": "بصل أبيض",
+      "name_en": "White Onions",
+      "price": 16,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe",
+      "status": "fruitAndVegetables"
+    },
+    {
+      "id": 6,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/6.jpg?raw=true",
+      "name_ar": "ليمون بلدي",
+      "name_en": "Lemon",
+      "price": 30,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 7,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/7.jpg?raw=true",
+      "name_ar": "باذنجان كوبي",
+      "name_en": "Cuban Eggplan",
+      "price": 12,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 8,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/9.png?raw=true",
+      "name_ar": "باذنجان العروس",
+      "name_en": "Globe Eggplant",
+      "price": 15,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 9,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/10.jpg?raw=true",
+      "name_ar": "فلفل كوبي",
+      "name_en": "Cuban Pepper",
+      "price": 7,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 10,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/11.png?raw=true",
+      "name_ar": "فلفل ألوان",
+      "name_en": "Mixed Color Pepper",
+      "price": 50,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 11,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/12.jpg?raw=true",
+      "name_ar": "جزر",
+      "name_en": "Carrots",
+      "price": 12,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe",
+      "status": "bestSeller"
+    },
+    {
+      "id": 12,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/13.png?raw=true",
+      "name_ar": "كوسة",
+      "name_en": "Zucchini",
+      "price": 15,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 13,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/14.jpg?raw=true",
+      "name_ar": "طماطم شيرى",
+      "name_en": "Cherry Tomatoes",
+      "price": 85,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe",
+      "status": "bestSeller"
+    },
+    {
+      "id": 14,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/15.jpg?raw=true",
+      "name_ar": "فلفل اخضر حار",
+      "name_en": "Hot Green Pepper",
+      "price": 2,
+      "size_ar": "250 جرام",
+      "size_en": "250 gm",
+      "kind": "freshVe"
+    },
+    {
+      "id": 15,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/16.png?raw=true",
+      "name_ar": "فلفل اخضر حلو",
+      "name_en": "",
+      "price": 7,
+      "size_ar": "250 جرام",
+      "size_en": "250 gm",
+      "kind": "freshVe"
+    },
+    {
+      "id": 16,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/17.png?raw=true",
+      "name_ar": "مشروم",
+      "name_en": "Mushrooms",
+      "price": 30,
+      "size_ar": "200 جرام",
+      "size_en": "200 gm",
+      "kind": "freshVe"
+    },
+    {
+      "id": 17,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/18.jpg?raw=true",
+      "name_ar": "زنجبيل فريش",
+      "name_en": "Fresh Ginger",
+      "price": 22,
+      "size_ar": "100 جرام",
+      "size_en": "100 gm",
+      "kind": "freshVe"
+    },
+    {
+      "id": 18,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/19.png?raw=true",
+      "name_ar": "فاصوليا خضراء فريش",
+      "name_en": "Fresh Green Beans",
+      "price": 35,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 19,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/20.png?raw=true",
+      "name_ar": "كابوتشى",
+      "name_en": "Capuchi",
+      "price": 10,
+      "size_ar": "قطعة",
+      "size_en": "piece",
+      "kind": "freshVe"
+    },
+    {
+      "id": 20,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/21.png?raw=true",
+      "name_ar": "كرنب ابيض سلطة",
+      "name_en": "White Cabbage",
+      "price": 14,
+      "size_ar": "قطعة",
+      "size_en": "piece",
+      "kind": "freshVe"
+    },
+    {
+      "id": 21,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/22.jpg?raw=true",
+      "name_ar": "كرنب احمر سلطه",
+      "name_en": "Red Cabbage",
+      "price": 14,
+      "size_ar": "قطعة",
+      "size_en": "piece",
+      "kind": "freshVe"
+    },
+    {
+      "id": 22,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/23.jpg?raw=true",
+      "name_ar": "بنجر بدون عرش",
+      "name_en": "Beet",
+      "price": 13,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 23,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/24.jpg?raw=true",
+      "name_ar": "ثوم مستورد",
+      "name_en": "Garlic 1st Grade",
+      "price": 16,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 24,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/25.png?raw=true",
+      "name_ar": "ليمون اضاليا",
+      "name_en": "Lemon Adalya",
+      "price": 20,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 25,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/26.png?raw=true",
+      "name_ar": "فلفل كاليفورنيا",
+      "name_en": "California pepper",
+      "price": 7,
+      "size_ar": "250 جرام",
+      "size_en": "250 gm",
+      "kind": "freshVe"
+    },
+    {
+      "id": 26,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/27.png?raw=true",
+      "name_ar": "ثوم بلدى بدون عرش",
+      "name_en": "Garlic Bladi Without peel",
+      "price": 38,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshVe"
+    },
+    {
+      "id": 27,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/28.png?raw=true",
+      "name_ar": "اناناس سكرى",
+      "name_en": "Pineapple",
+      "price": 0,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr"
+    },
+    {
+      "id": 28,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/29.png?raw=true",
+      "name_ar": "قرع عسل",
+      "name_en": "Honey Pumpkin",
+      "price": 18,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr"
+    },
+    {
+      "id": 29,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/30.png?raw=true",
+      "name_ar": "موز بلدى",
+      "name_en": "banana balde",
+      "price": 14,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr",
+      "status": "bestSeller"
+    },
+    {
+      "id": 30,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/31.png?raw=true",
+      "name_ar": "كنتالوب",
+      "name_en": "Cantaloupe",
+      "price": 18,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr"
+    },
+    {
+      "id": 31,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/32.jpg?raw=true",
+      "name_ar": "تفاح أحمر مستورد",
+      "name_en": "Red Apple",
+      "price": 48,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr"
+    },
+    {
+      "id": 32,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/33.jpg?raw=true",
+      "name_ar": "تفاح سكري",
+      "name_en": "Sweet Apple",
+      "price": 50,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr"
+    },
+    {
+      "id": 33,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/34.png?raw=true",
+      "name_ar": "كيوى",
+      "name_en": "Kiwi",
+      "price": 55,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr"
+    },
+    {
+      "id": 34,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/35.png?raw=true",
+      "name_ar": "تفاح أصفر مستورد",
+      "name_en": "Yellow Apple",
+      "price": 57,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr"
+    },
+    {
+      "id": 35,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/36.png?raw=true",
+      "name_ar": "تفاح أخضر دايت مستورد",
+      "name_en": "Green Apple",
+      "price": 80,
+      "size_ar": "1 كجم",
+      "size_en": "1 KG",
+      "kind": "freshFr",
+      "status": "bestSeller"
+    },
+    {
+      "id": 36,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/37.jpg?raw=true",
+      "name_ar": "زعتر فريش",
+      "name_en": "Fresh Thyme",
+      "price": 12,
+      "size_ar": "حزمة",
+      "size_en": "Bunch",
+      "kind": "freshLeaves"
+    },
+    {
+      "id": 37,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/38.png?raw=true",
+      "name_ar": "نعناع",
+      "name_en": "Mint",
+      "price": 1.5,
+      "size_ar": "حزمة",
+      "size_en": "Bunch",
+      "kind": "freshLeaves"
+    },
+    {
+      "id": 38,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/39.jpg?raw=true",
+      "name_ar": "بقدونس",
+      "name_en": "Parsley",
+      "price": 3.5,
+      "size_ar": "حزمة",
+      "size_en": "Bunch",
+      "kind": "freshLeaves"
+    },
+    {
+      "id": 39,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/40.jpg?raw=true",
+      "name_ar": "جرجير",
+      "name_en": "Arugula",
+      "price": 3.5,
+      "size_ar": "حزمة",
+      "size_en": "Bunch",
+      "kind": "freshLeaves"
+    },
+    {
+      "id": 40,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/41.jpg?raw=true",
+      "name_ar": "شبت",
+      "name_en": "Dill",
+      "price": 3.5,
+      "size_ar": "حزمة",
+      "size_en": "Bunch",
+      "kind": "freshLeaves"
+    },
+    {
+      "id": 41,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/42.jpg?raw=true",
+      "name_ar": "كزبرة خضراء",
+      "name_en": "Green Coriander",
+      "price": 3.5,
+      "size_ar": "حزمة",
+      "size_en": "Bunch",
+      "kind": "freshLeaves"
+    },
+    {
+      "id": 42,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/1.jpg?raw=true",
+      "name_ar": "تفاح سكري",
+      "name_en": "Sweet Apple",
+      "price": 50,
+      "size_ar": "1كجم",
+      "size_en": "1 KG",
+      "kind": "weekly-deals",
+      "status": "weeklyOffers"
+    },
+    {
+      "id": 43,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/2.png?raw=true",
+      "name_ar": "جريك سلاد صيامى",
+      "name_en": "Greek Salad Fasting",
+      "price": 45,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "weekly-deals",
+      "status": "weeklyOffers"
+    },
+    {
+      "id": 44,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/3.png?raw=true",
+      "name_ar": "جرين سلاد صيامى",
+      "name_en": "Green salad Fasting",
+      "price": 40,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "weekly-deals"
+    },
+    {
+      "id": 45,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/4.png?raw=true",
+      "name_ar": "تشيكن سيزار سلاد",
+      "name_en": "Chicken Caesar Salad",
+      "price": 50,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "weekly-deals",
+      "status": "weeklyOffers"
+    },
+    {
+      "id": 46,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/5.png?raw=true",
+      "name_ar": "ميلانو سلاد",
+      "name_en": "Milano Salad",
+      "price": 50,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "weekly-deals",
+      "status": "weeklyOffers"
+    },
+    {
+      "id": 47,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/6.png?raw=true",
+      "name_ar": "موز مستورد فاخر",
+      "name_en": "Banana",
+      "price": "70",
+      "size_ar": "1كجم",
+      "size_en": "1 Kg",
+      "kind": "weekly-deals"
+    },
+    {
+      "id": 48,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/7.png?raw=true",
+      "name_ar": "طحينة البوادي",
+      "name_en": "Al-Bawadi Tahina",
+      "price": 19,
+      "size_ar": "255 جرام",
+      "size_en": "255 gm",
+      "kind": "weekly-deals"
+    },
+    {
+      "id": 49,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/2.png?raw=true",
+      "name_ar": "جريك سلاد صيامى",
+      "name_en": "Greek Salad Fasting",
+      "price": 45,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "salad"
+    },
+    {
+      "id": 50,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/weekly%20offers/3.png?raw=true",
+      "name_ar": "جرين سلاد صيامى",
+      "name_en": "Green salad Fasting",
+      "price": 45,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "salad"
+    },
+    {
+      "id": 51,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/1.png?raw=true",
+      "name_ar": "تشيكن سيزار سلاد",
+      "name_en": "Chicken Caesar Salad",
+      "price": 50,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "salad"
+    },
+    {
+      "id": 52,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/2.png?raw=true",
+      "name_ar": "ميلانو سلاد",
+      "name_en": "Milano Salad",
+      "price": 50,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "salad"
+    },
+    {
+      "id": 51,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/7.png?raw=true",
+      "name_ar": "سلطة تونة",
+      "name_en": "Tuna salad",
+      "price": 65,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "salad"
+    },
+    {
+      "id": 52,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/6.png?raw=true",
+      "name_ar": "تشكين تشيلي سلاد",
+      "name_en": "Chicken Chili Salad",
+      "price": 65,
+      "size_ar": "عبوة",
+      "size_en": "pack",
+      "kind": "salad"
+    },
+    {
+      "id": 53,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/8.jpg?raw=true",
+      "name_ar": "شوربة خضار",
+      "name_en": "vegetables soup",
+      "price": 25,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 54,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/9.jpg?raw=true",
+      "name_ar": "خضار سوتيه فريش",
+      "name_en": "Sauteed vegetables",
+      "price": 25,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 55,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/10.png?raw=true",
+      "name_ar": "باذنجان عروس مقور فريش",
+      "name_en": "Globe Eggplant for",
+      "price": 22,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 56,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/11.png?raw=true",
+      "name_ar": "كوسة مقورة فريش",
+      "name_en": "Zucchini for Stuffing",
+      "price": 22,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 57,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/fruits%20vegetables/26.png?raw=true",
+      "name_ar": "فلفل مقور فريش",
+      "name_en": "Cuban Pepper For Stuffing",
+      "price": 25,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 58,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/12.jpg?raw=true",
+      "name_ar": "ثوم مفروم",
+      "name_en": "Minced garlic",
+      "price": 35,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 59,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/13.png?raw=true",
+      "name_ar": "خضرة محشى مقطعة فريش",
+      "name_en": "Freshly chopped stuffed vegetables",
+      "price": 10,
+      "size_ar": "100 جرام",
+      "size_en": "100 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 60,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/14.png?raw=true",
+      "name_ar": "ثوم مفصص",
+      "name_en": "Lobed Garlic",
+      "price": 12,
+      "size_ar": "100 جرام",
+      "size_en": "100 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 61,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/15.png?raw=true",
+      "name_ar": "بطاطس شيبسي",
+      "name_en": "بطاطس شيبسي",
+      "price": 12.25,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 62,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/5.png?raw=true",
+      "name_ar": "كرنب احمر مبشور",
+      "name_en": "Grated red cabbage salad",
+      "price": 14,
+      "size_ar": "250 جرام",
+      "size_en": "250 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 63,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/16.png?raw=true",
+      "name_ar": "شطة مقطعة فريش",
+      "name_en": "Fresh chopped chili",
+      "price": 14,
+      "size_ar": "400 جرام",
+      "size_en": "400 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 64,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/17.png?raw=true",
+      "name_ar": "كرنب ابيض سلطه مبشو",
+      "name_en": "Shredded white cabbage salad",
+      "price": 14,
+      "size_ar": "250 جرام",
+      "size_en": "250 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 65,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/18.png?raw=true",
+      "name_ar": "بصل جوليان شرائح فريش",
+      "name_en": "Julian's onion, sliced ​​fresh",
+      "price": 14,
+      "size_ar": "250 جرام",
+      "size_en": "250 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 66,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/19.png?raw=true",
+      "name_ar": "بقدونس مخرط فريش",
+      "name_en": "Fresh cone parsley",
+      "price": 15,
+      "size_ar": "100 جرام",
+      "size_en": "100 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 67,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/20.png?raw=true",
+      "name_ar": "ميكس كرنب سلطة مقطع",
+      "name_en": "Mix shredded cabbage",
+      "price": 15,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 68,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/21.png?raw=true",
+      "name_ar": "كزبرة مخرط فريش",
+      "name_en": "Fresh coriander cone",
+      "price": 15,
+      "size_ar": "100 جرام",
+      "size_en": "100 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 69,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/22.png?raw=true",
+      "name_ar": "شبت مخرط فريش",
+      "name_en": "Fresh dill cone",
+      "price": 15,
+      "size_ar": "100 جرام",
+      "size_en": "100 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 70,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/23.png?raw=true",
+      "name_ar": "بطاطس حلقات",
+      "name_en": "Potato Rings",
+      "price": 15,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 71,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/24.png?raw=true",
+      "name_ar": "بنجر سلطه مقطع فريش",
+      "name_en": "Fresh beet salad",
+      "price": 20,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 72,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/25.png?raw=true",
+      "name_ar": "بطاطس صوابع فريش",
+      "name_en": "Fresh Fingers Potato",
+      "price": 20,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 73,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/26.png?raw=true",
+      "name_ar": "كوسة حلقات فريش",
+      "name_en": "Zucchini fresh rings",
+      "price": 20,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 74,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/27.png?raw=true",
+      "name_ar": "بطاطس مقورة فريش",
+      "name_en": "Potatoes For Stuffing",
+      "price": 22,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 75,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/28.png?raw=true",
+      "name_ar": "محشى مشكل فريش",
+      "name_en": "Fresh mix stuffed",
+      "price": 24,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 76,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/29.png?raw=true",
+      "name_ar": "قلقاس مكعبات فريش",
+      "name_en": "Diced Taro Fresh",
+      "price": 25,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 77,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/30.png?raw=true",
+      "name_ar": "قرع عسل مكعبات",
+      "name_en": "Diced Pumpkin honey",
+      "price": 25,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 78,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/31.png?raw=true",
+      "name_ar": "فاصوليا خضراء مقطعة فريش",
+      "name_en": "Fresh Green Beans",
+      "price": 35,
+      "size_ar": "500 جرام",
+      "size_en": "500 gm",
+      "kind": "readyVe"
+    },
+    {
+      "id": 79,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/khodar%20kitchen/32.png?raw=true",
+      "name_ar": "ميكس تشيلى هالبينو",
+      "name_en": "Mix Chili Jalapeno",
+      "price": 5,
+      "size_ar": "200 جرام",
+      "size_en": "200 gm",
+      "kind": "khodarT"
+    },
+    {
+      "id": 80,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/grocery/3.jpg?raw=true",
+      "name_ar": "نسكافيه 3*1",
+      "name_en": "Nescafe 3in1",
+      "price": 52,
+      "size_ar": "24 كيس",
+      "size_en": "24 pack",
+      "kind": "bevarage"
+    },
+    {
+      "id": 81,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/grocery/1.jpg?raw=true",
+      "name_ar": "فول سودانى محمص بقشره بالملح",
+      "name_en": "Roasted peanuts shell with salt 1 kg",
+      "price": 75,
+      "size_ar": "1 كيلو ",
+      "size_en": "1 KG",
+      "kind": "grains"
+    },
+    {
+      "id": 82,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/grocery/4.jpg?raw=true",
+      "name_ar": "خلطة كارى الضحي",
+      "name_en": "Al Doha Curry mix",
+      "price": 13.5,
+      "size_ar": "70 جرام",
+      "size_en": "70 gm",
+      "kind": "spices"
+    },
+    {
+      "id": 83,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/grocery/5.jpg?raw=true",
+      "name_ar": "كمون ملاحة الضحى 65 جم",
+      "name_en": "Cumin AlDuha 65 gm",
+      "price": 19,
+      "size_ar": "65 جرام",
+      "size_en": "65 gm",
+      "kind": "spices"
+    },
+    {
+      "id": 84,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/detergents/1.jpg?raw=true",
+      "name_ar": "ديتول",
+      "name_en": "Dettol",
+      "price": 60,
+      "size_ar": "465 مل",
+      "size_en": "465 ml",
+      "kind": "detergents"
+    },
+    {
+      "id": 85,
+      "img": "https://github.com/alaatalaat/5odare-assets/blob/master/detergents/3.jpg?raw=true",
+      "name_ar": "كولوركس",
+      "name_en": "Clorox",
+      "price": 25,
+      "size_ar": "200 مل",
+      "size_en": "200 ml",
+      "kind": "detergents"
+    }
+  ]
+}
